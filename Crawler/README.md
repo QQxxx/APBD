@@ -9,6 +9,6 @@ The task is to prepare a simple "crawler" that will crawl a selected Web page an
 ### Requirements 
 - If an argument has not been passed, an `ArgumentNullException` error should be returned
 - If an argument is not a valid URL, an `ArgumentException` error should be returned
-- In a situation where an error occurs while downloading the page (that is, a request status that is not between 200-299), an Exception error should be returned with the message `Error while downloading the page`
-- When no email addresses have been found, an Exception error should be returned with the message `No email addresses found`
+- In a situation where an error occurs while downloading the page (that is, a request status that is not between 200-299), an Exception error should be returned with the message `Error while loading website.`
+- When no email addresses have been found, an Exception error should be returned with the message `No email addresses found.`
 - When email addresses have been found, they should be displayed on the console. The application should return only unique email addresses
