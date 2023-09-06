@@ -1,6 +1,6 @@
 # APBD
 
-## Short description of consecutive exercises
+## Short description of the exercises
 
 ### Exercise 1 - Crawler
 The task is to prepare a simple "crawler" that will crawl a selected web page and find email addresses located there.
